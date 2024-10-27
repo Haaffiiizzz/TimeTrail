@@ -8,7 +8,7 @@ with open("countries1.json", "r") as file:
 # Prepare lists for plotting
 foods = set()  # Use a set to avoid duplicates
 prices = []
-
+  # commit
 # Extract food items and their prices
 for country, (currency, items) in data.items():
     for food_item, price in items.items():
